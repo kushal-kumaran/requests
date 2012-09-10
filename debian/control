@@ -1,0 +1,14 @@
+Source: python3-requests
+Section: net
+Priority: extra
+Maintainer: Kushal Kumaran <kushal.kumaran@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/kushal-kumaran/requests
+
+Package: python3-requests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
+Description: Requests is an ISC Licensed HTTP library, written in Python, for human beings.
+ Requests is an ISC Licensed HTTP library, written in Python, for human
+ beings.
